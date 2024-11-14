@@ -4,10 +4,30 @@
     align-items: center;   
     background-color:rgb(246, 196, 134); 
 }
-header {
+.navbar {
+    align-items: center;
+    justify-content: space-around;
+    position: top;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.navbar ul {
+    margin: 0 10%;
+  }
+
+  .navbar li {
+    display: inline-block;
+    font-size: 1em;
+    padding: 10px 10px;
+  }
+
+
+h1 {
     display: block;
     margin: 0px;
-    font-size: 38px;
+    font-size: 8em;
     color:	#BC8F8F;
     text-shadow: -1px 3px 0 #000,
                   2px 3px 0 #000,
@@ -20,20 +40,6 @@ header {
     margin-right: auto;
     width: 20%;
     border-radius: 50%;
-}
-
-nav {
-    background-color: transparent;
-    display: inline-block;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    height: 49px;
-    width: fit-content;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 99;
 }
 
 h2 {
@@ -57,5 +63,8 @@ h3 {
     font-size: 24px;
 }
     
-
+footer {
+    font-size: 24px;
+    font-weight: bolder;
+}
   
